@@ -1,0 +1,31 @@
+body {
+	
+	/*background-image:url("images/westelmframewall_goldleaf_bluewall.jpg");*/
+	font-family: "Open Sans"; sans-serif;
+	text-align: center;
+	font-weight: 300;
+}
+h1, h3 {
+	font-weight: 300;
+/*	for some reason when I take this out (replaced by font-weight in 'body,') I lose the padding on the header. why is that? */
+
+}
+
+header {
+	background: 202020;
+	padding: 20px;
+}
+
+.navigation {
+	color: #000;
+	text-decoration: none;
+	margin: 20px;
+}
+
+a {
+	color: #000;
+}
+
+#slogan {
+	font-style: italic;
+}
