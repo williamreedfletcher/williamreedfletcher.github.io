@@ -1,10 +1,34 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,300,600);
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:100,400);
+
 body {
 	
 	/*background-image:url("images/westelmframewall_goldleaf_bluewall.jpg");*/
 	font-family: "Open Sans"; sans-serif;
 	text-align: center;
 	font-weight: 300;
+	line-height: 1.6 em;
 }
+
+h1 {
+	line-height: .85em;
+	margin-bottom: 10px;
+
+}
+
+hr { 
+    display: center;
+    margin-top: 0.5em;
+    margin-bottom: 0px;
+    width:5%;
+    background-color: 0,0,0;
+} 
+
+h3 {
+	margin-top: 0px;
+}
+
 h1, h3 {
 	font-weight: 300;
 /*	for some reason when I take this out (replaced by font-weight in 'body,') I lose the padding on the header. why is that? */
@@ -27,5 +51,9 @@ a {
 }
 
 #slogan {
-	font-style: italic;
+	font-family: "Roboto Slab", Serif;
+}
+
+ul {
+      list-style-type: none;
 }
